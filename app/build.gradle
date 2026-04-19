@@ -61,9 +61,13 @@ dependencies {
     implementation 'com.squareup.okhttp3:logging-interceptor:4.12.0'
 
     // Coroutines
-    implementation('org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3') {
-        exclude group: 'org.jetbrains', module: 'annotations-java5'
-        exclude group: 'org.jetbrains', module: 'annotations'
+    implementation 'org.jetbrains:annotations:24.0.0'
+    
+    // Exclude the conflicting annotations-java5 dependency
+    configurations {
+        all {
+            exclude group: 'org.jetbrains', module: 'annotations-java5'
+        }
     }
 
 
