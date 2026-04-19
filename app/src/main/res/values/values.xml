@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<style name="YourStyleName">
+<style name="Theme.ChatAI">
     <item name="colorBackground">@color/bg_dark</item>
 </style>
 </resources>
