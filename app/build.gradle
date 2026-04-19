@@ -75,3 +75,11 @@ dependencies {
         exclude group: 'org.jetbrains', module: 'annotations-java5'
     }
 }
+dependencies {
+    implementation('io.noties.markwon:core:4.6.2') {
+        exclude group: 'org.jetbrains', module: 'annotations-java5'
+    }
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3' {
+        exclude group: 'org.jetbrains', module: 'annotations-java5'
+    }
+}
