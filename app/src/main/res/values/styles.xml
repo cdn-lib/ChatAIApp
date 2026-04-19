@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style name="AppTheme" parent="Theme.AppCompat">
-    <item name="colorBackground">@color/colorBackground</item>
-</style>
+<resources>
+    <style name="AppTheme" parent="Theme.ChatAI">
+        <item name="colorBackground">@color/bg_dark</item>
+    </style>
+</resources>
