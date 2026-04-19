@@ -54,33 +54,26 @@ dependencies {
     // Retrofit + OkHttp
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
-    implementation('com.squareup.okhttp3:okhttp:4.12.0') {
-        exclude group: 'org.jetbrains', module: 'annotations-java5'
-        exclude group: 'org.jetbrains', module: 'annotations'
-    }
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
     implementation 'com.squareup.okhttp3:logging-interceptor:4.12.0'
 
     // Coroutines
-    implementation 'org.jetbrains:annotations:24.0.0'
-    
-    // Exclude the conflicting annotations-java5 dependency
-    configurations {
-        all {
-            exclude group: 'org.jetbrains', module: 'annotations-java5'
-        }
-    }
-
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3'
 
     // Markdown rendering
     implementation 'io.noties.markwon:core:4.6.2'
     implementation 'io.noties.markwon:syntax-highlight:4.6.2'
 
-    // Exclude duplicate annotations globally
-    implementation('org.jetbrains:annotations:23.0.0') {
-        exclude group: 'org.jetbrains', module: 'annotations-java5'
-    }
+    // ⭐ TAMBAHKAN INI untuk resolve duplicate annotations class
+    implementation('org.jetbrains:annotations:24.0.0')
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}
+
+// ⭐ TAMBAHKAN INI di akhir file untuk exclude annotations-java5
+configurations.all {
+    exclude group: 'org.jetbrains', module: 'annotations-java5'
 }
