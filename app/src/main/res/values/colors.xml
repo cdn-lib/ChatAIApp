@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Background -->
+    <color name="bg_dark">#0F0F1A</color>
+    <color name="toolbar_bg">#161625</color>
+    <color name="card_bg">#1C1C2E</color>
+    <color name="input_bg">#1C1C2E</color>
+    <color name="card_border">#2E2E45</color>
+
+    <!-- Text -->
+    <color name="text_primary">#F0F0FF</color>
+    <color name="text_secondary">#A0A0C0</color>
+    <color name="text_hint">#606080</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Accents -->
+    <color name="accent_purple">#7C6AE8</color>
+    <color name="accent_purple_dark">#5A4CC4</color>
+    <color name="accent_blue">#4CCAF3</color>
+    <color name="accent_green">#00C9A7</color>
+    <color name="accent_red">#FF5C7A</color>
+
+    <!-- User bubble gradient colors -->
+    <color name="user_bubble_start">#7C6AE8</color>
+    <color name="user_bubble_end">#4CCAF3</color>
+
+    <!-- AI bubble -->
+    <color name="ai_bubble_bg">#1E1E32</color>
+    <color name="ai_bubble_border">#2E2E4A</color>
+
+    <!-- Dot loading -->
+    <color name="dot_color">#7C6AE8</color>
+</resources>

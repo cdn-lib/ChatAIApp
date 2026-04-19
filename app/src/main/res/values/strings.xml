@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChatAI</string>
+    <string name="hint_api_key">sk-or-v1-…</string>
+    <string name="btn_start_chat">Mulai Chat</string>
+    <string name="label_choose_model">Pilih Model AI</string>
+    <string name="label_api_key">OpenRouter API Key</string>
+    <string name="msg_copy_success">Pesan disalin!</string>
+    <string name="msg_no_connection">Tidak ada koneksi internet</string>
+    <string name="msg_empty_response">Respon kosong dari AI</string>
+    <string name="dialog_clear_title">Hapus Percakapan</string>
+    <string name="dialog_clear_message">Apakah Anda yakin ingin menghapus semua pesan?</string>
+    <string name="dialog_yes">Hapus</string>
+    <string name="dialog_no">Batal</string>
+    <string name="footer_text">ChatAI v1.0 • Built with ❤️ in Kotlin</string>
+</resources>
