@@ -1,0 +1,3 @@
+<style name="AppTheme" parent="Theme.AppCompat">
+    <item name="colorBackground">@color/colorBackground</item>
+</style>
